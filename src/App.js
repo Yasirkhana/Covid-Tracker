@@ -1,6 +1,6 @@
 import React, { createContext } from "react";
 import "./style.css"
-import TableView from "./TableView";
+import { StateWise } from "./Components/StateWiseData/StateWise";
 
 function App(){
 
@@ -8,7 +8,7 @@ function App(){
   return(
     <>
    
-   <TableView/>
+   <StateWise></StateWise>
    
     </>
   )
