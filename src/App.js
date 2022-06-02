@@ -12,9 +12,9 @@ function App() {
       <Router>
               
         <nav>
-            <Link to="/">HOME</Link>
-            <Link to="/about">ABOUT</Link>
-            <Link to="/service">SERVICE</Link>
+            <Link to="/">HOME</Link> {"     "}
+            <Link to="/about">ABOUT</Link>  {"    "}
+            <Link to="/service">SERVICE</Link>  {"    "}
             <Link to="/contact">CONTACT</Link>
         </nav>
         <Routes>
