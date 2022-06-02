@@ -1,11 +1,9 @@
 import React from 'react'
-import { BrowserRouter as Router, Routes , Route } from 'react-router-dom'
+import { BrowserRouter as Router, Routes , Route, Link } from 'react-router-dom'
 import Home from './Home'
 import Service from './Service'
 import Contact from './Contact'
 import About from './About'
-
-import { Link } from 'react-router-dom'
 
 
 function App() {
@@ -14,10 +12,10 @@ function App() {
       <Router>
               
         <nav>
-            <Link To="/">HOME</Link>
-            <Link To="/about">ABOUT</Link>
-            <Link To="/service">SERVICE</Link>
-            <Link To="/contact">CONTACT</Link>
+            <Link to="/">HOME</Link>
+            <Link to="/about">ABOUT</Link>
+            <Link to="/service">SERVICE</Link>
+            <Link to="/contact">CONTACT</Link>
         </nav>
         <Routes>
           <Route path='/' element={<Home/>} />
